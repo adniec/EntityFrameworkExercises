@@ -60,6 +60,38 @@
 - Reference
     - [Documentation](https://entityframework.net/tpt#tpt-in-code-first)
 
+## Setup
+
+- Visual Studio
+    - It's recommended to use [Visual Studio](https://visualstudio.microsoft.com/) for setting up project.
+- Create project
+    - To create new project follow [guide](docs/Setup.md).
+- Open project
+    - Clone repository and switch to branch with solution number.
+    - Open Visual Studio and select from menu:
+        - `File -> Open -> Project/Solution`
+        - Pick `App.sln` from `App` directory of solution
+
+## Run
+
+Open project in Visual Studio and press run button located on the top bar:
+
+![run](img/run.png)
+
+- Results:
+    - Terminal with results will show up. 
+    - Modified database will be available in project location under path: 
+        - `bin/Debug/netcoreapp3.1/DatabaseName.db`
+        - You can open it using for example [DB Browser for SQLite](https://sqlitebrowser.org/).
+- Exception:
+    - If `Microsoft.EntityFrameworkCore.DbUpdateException` raises go to:
+    - `Solution Explorer -> Right click on database -> Properites -> Copy to Output Directory`
+    - Set it to:
+        - `Copy if newer` if you want update database in each run of program
+        - `Copy always` if you want to clean database before each run of program
+- Troubleshooting:
+    - Check [setup guide](docs/Setup.md) in case of any other problems.
+
 ## Project Information
 
 ##### Author
