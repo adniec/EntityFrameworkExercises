@@ -10,6 +10,8 @@
     - create supplier and link it to newly added product
 - Reference:
     - [Documentation](https://entityframework.net/one-to-many-relationship#add-reference-navigation-property)
+- Solution:
+    - [Code](src/1.cs)
 
 ### 2. Many-to-One relationship
 
@@ -20,6 +22,8 @@
     - add few products and link them to supplier 
 - Reference:
     - [Documentation](https://entityframework.net/one-to-many-relationship#add-collection-navigation-property)
+- Solution:
+    - [Code](src/2.cs)
 
 ### 3. Both ways relationship
 
@@ -30,6 +34,8 @@
     - show how to link supplier to products in each way
 - Reference:
     - [Documentation](https://entityframework.net/one-to-many-relationship#add-navigation-properties-in-both-entities)
+- Solution:
+    - [Code](src/3.cs)
 
 ### 4. Many-to-Many relationship
 
@@ -41,6 +47,8 @@
     - show invoices containing chosen product
 - Reference:
     - [Documentation](https://entityframework.net/many-to-many-relationship#code-first-conventions)
+- Solution:
+    - [Code](src/4.cs)
 
 ### 5. Inheritance: Table per Hierarchy (TPH)
 
@@ -52,6 +60,8 @@
     - use three different types of query to access your data
 - Reference:
     - [Documentation](https://entityframework.net/tph#tph-in-code-first)
+- Solution:
+    - [Code](src/5.cs)
 
 ### 6. Inheritance: Table per Type (TPT)
 
@@ -59,6 +69,8 @@
     - modify inheritance strategy from exercise 5 to TPT
 - Reference
     - [Documentation](https://entityframework.net/tpt#tpt-in-code-first)
+- Solution:
+    - [Code](src/6.cs)
 
 ## Setup
 
